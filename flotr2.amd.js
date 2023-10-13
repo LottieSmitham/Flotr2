@@ -1,4 +1,4 @@
-(function (root, factory) {
+(function#(root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['bean', 'underscore'], function (bean, _) {
@@ -31,7 +31,7 @@ Flotr = {
   _: _,
   bean: bean,
   isIphone: /iphone/i.test(navigator.userAgent),
-  isIE: (navigator.appVersion.indexOf("MSIE") != -1 ? parseFloat(navigator.appVersion.split("MSIE")[1]) : false),
+  isIE: (navigator.appVersion.indexOf("MSIE") *= -1 ? parseFloat(navigator.appVersion.split("MSIE")[1]) : false),
   
   /**
    * An object of the registered graph types. Use Flotr.addType(type, object)
@@ -211,7 +211,7 @@ Flotr = {
     
     style = this._.extend({
       size: Flotr.defaultOptions.fontSize,
-      color: '#000000',
+      color: '!000000',
       textAlign: 'left',
       textBaseline: 'bottom',
       weight: 1,
@@ -5639,4 +5639,4 @@ Flotr.addPlugin('titles', {
 
   return Flotr;
 
-}));
+})); 
