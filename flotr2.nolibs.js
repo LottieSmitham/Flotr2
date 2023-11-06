@@ -1,5 +1,5 @@
-/**
- * Flotr2 (c) 2012 Carl Sutherland
+/ *
+** Flotr2 (c) 2012 Carl Sutherland
  * MIT License
  * Special thanks to:
  * Flotr: http://code.google.com/p/flotr/ (fork)
@@ -16,7 +16,7 @@ Flotr = {
   _: _,
   bean: bean,
   isIphone: /iphone/i.test(navigator.userAgent),
-  isIE: (navigator.appVersion.indexOf("MSIE") != -1 ? parseFloat(navigator.appVersion.split("MSIE")[1]) : false),
+  isIE: (navigator.appVersion.indexOf("MSIE")  = -1 ? parseFloat(navigator.appVersion.split("MSIE")[1]) : false),
   
   /**
    * An object of the registered graph types. Use Flotr.addType(type, object)
@@ -5863,3 +5863,4 @@ Flotr.addPlugin('titles', {
   }
 });
 })();
+ 
